@@ -111,6 +111,7 @@
     <Compile Include="LoRaWanNetworkSrvCmdWrapper\Program.cs" />
     <Compile Include="PacketForwarderSimulator\obj\Debug\netcoreapp2.0\PacketForwarderSimulator.AssemblyInfo.cs" />
     <Compile Include="PacketForwarderSimulator\Program.cs" />
+    <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include=".git\objects\info\" />
