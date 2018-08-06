@@ -1,0 +1,125 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{68F397FA-56B7-489A-ADF6-0E8A3A38D87A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>LoRaDevTools</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\info\exclude" />
+    <None Include="LoRaWanManagerTest\bin\Debug\netcoreapp2.0\LoRaWanManagerTest.deps.json" />
+    <None Include="LoRaWanManagerTest\bin\Debug\netcoreapp2.0\LoRaWanManagerTest.runtimeconfig.dev.json" />
+    <None Include="LoRaWanManagerTest\bin\Debug\netcoreapp2.0\LoRaWanManagerTest.runtimeconfig.json" />
+    <None Include="LoRaWanManagerTest\obj\Debug\netcoreapp2.0\LoRaWanManagerTest.AssemblyInfoInputs.cache" />
+    <None Include="LoRaWanManagerTest\obj\Debug\netcoreapp2.0\LoRaWanManagerTest.assets.cache" />
+    <None Include="LoRaWanManagerTest\obj\Debug\netcoreapp2.0\LoRaWanManagerTest.csproj.CopyComplete" />
+    <None Include="LoRaWanManagerTest\obj\Debug\netcoreapp2.0\LoRaWanManagerTest.csproj.CoreCompileInputs.cache" />
+    <None Include="LoRaWanManagerTest\obj\Debug\netcoreapp2.0\LoRaWanManagerTest.csprojAssemblyReference.cache" />
+    <None Include="LoRaWanManagerTest\obj\LoRaWanManagerTest.csproj.nuget.cache" />
+    <None Include="LoRaWanManagerTest\obj\LoRaWanManagerTest.csproj.nuget.g.props" />
+    <None Include="LoRaWanManagerTest\obj\LoRaWanManagerTest.csproj.nuget.g.targets" />
+    <None Include="LoRaWanManagerTest\obj\project.assets.json" />
+    <None Include="PacketForwarderSimulator\bin\Debug\netcoreapp2.0\PacketForwarderSimulator.deps.json" />
+    <None Include="PacketForwarderSimulator\bin\Debug\netcoreapp2.0\PacketForwarderSimulator.runtimeconfig.dev.json" />
+    <None Include="PacketForwarderSimulator\bin\Debug\netcoreapp2.0\PacketForwarderSimulator.runtimeconfig.json" />
+    <None Include="PacketForwarderSimulator\obj\Debug\netcoreapp2.0\PacketForwarderSimulator.AssemblyInfoInputs.cache" />
+    <None Include="PacketForwarderSimulator\obj\Debug\netcoreapp2.0\PacketForwarderSimulator.assets.cache" />
+    <None Include="PacketForwarderSimulator\obj\Debug\netcoreapp2.0\PacketForwarderSimulator.csproj.CopyComplete" />
+    <None Include="PacketForwarderSimulator\obj\Debug\netcoreapp2.0\PacketForwarderSimulator.csproj.CoreCompileInputs.cache" />
+    <None Include="PacketForwarderSimulator\obj\Debug\netcoreapp2.0\PacketForwarderSimulator.csprojAssemblyReference.cache" />
+    <None Include="PacketForwarderSimulator\obj\PacketForwarderSimulator.csproj.nuget.cache" />
+    <None Include="PacketForwarderSimulator\obj\PacketForwarderSimulator.csproj.nuget.g.props" />
+    <None Include="PacketForwarderSimulator\obj\PacketForwarderSimulator.csproj.nuget.g.targets" />
+    <None Include="PacketForwarderSimulator\obj\project.assets.json" />
+    <None Include="PacketForwarderSimulator\README.md" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LoRaWanManagerTest\bin\Debug\netcoreapp2.0\LoRaTools.dll" />
+    <Content Include="LoRaWanManagerTest\bin\Debug\netcoreapp2.0\LoRaTools.pdb" />
+    <Content Include="LoRaWanManagerTest\bin\Debug\netcoreapp2.0\LoRaWan.NetworkServer.dll" />
+    <Content Include="LoRaWanManagerTest\bin\Debug\netcoreapp2.0\LoRaWan.NetworkServer.pdb" />
+    <Content Include="LoRaWanManagerTest\bin\Debug\netcoreapp2.0\LoRaWanManagerTest.dll" />
+    <Content Include="LoRaWanManagerTest\bin\Debug\netcoreapp2.0\LoRaWanManagerTest.pdb" />
+    <Content Include="LoRaWanManagerTest\LoRaWanManagerTest.csproj" />
+    <Content Include="LoRaWanManagerTest\obj\Debug\netcoreapp2.0\LoRaWanManagerTest.csproj.FileListAbsolute.txt" />
+    <Content Include="LoRaWanManagerTest\obj\Debug\netcoreapp2.0\LoRaWanManagerTest.dll" />
+    <Content Include="LoRaWanManagerTest\obj\Debug\netcoreapp2.0\LoRaWanManagerTest.pdb" />
+    <Content Include="LoRaWanNetworkSrvCmdWrapper\LoRaWanNetworkSrvCmdWrapper.csproj" />
+    <Content Include="PacketForwarderSimulator\bin\Debug\netcoreapp2.0\LoRaTools.dll" />
+    <Content Include="PacketForwarderSimulator\bin\Debug\netcoreapp2.0\LoRaTools.pdb" />
+    <Content Include="PacketForwarderSimulator\bin\Debug\netcoreapp2.0\PacketForwarderSimulator.dll" />
+    <Content Include="PacketForwarderSimulator\bin\Debug\netcoreapp2.0\PacketForwarderSimulator.pdb" />
+    <Content Include="PacketForwarderSimulator\obj\Debug\netcoreapp2.0\PacketForwarderSimulator.csproj.FileListAbsolute.txt" />
+    <Content Include="PacketForwarderSimulator\obj\Debug\netcoreapp2.0\PacketForwarderSimulator.dll" />
+    <Content Include="PacketForwarderSimulator\obj\Debug\netcoreapp2.0\PacketForwarderSimulator.pdb" />
+    <Content Include="PacketForwarderSimulator\PacketForwarderSimulator.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LoRaWanManagerTest\obj\Debug\netcoreapp2.0\LoRaWanManagerTest.AssemblyInfo.cs" />
+    <Compile Include="LoRaWanManagerTest\Program.cs" />
+    <Compile Include="LoRaWanNetworkSrvCmdWrapper\Program.cs" />
+    <Compile Include="PacketForwarderSimulator\obj\Debug\netcoreapp2.0\PacketForwarderSimulator.AssemblyInfo.cs" />
+    <Compile Include="PacketForwarderSimulator\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\heads\" />
+    <Folder Include=".git\refs\tags\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

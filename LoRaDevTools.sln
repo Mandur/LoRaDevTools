@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoRaDevTools", "LoRaDevTools.csproj", "{68F397FA-56B7-489A-ADF6-0E8A3A38D87A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68F397FA-56B7-489A-ADF6-0E8A3A38D87A}.Debug|x86.ActiveCfg = Debug|x86
+		{68F397FA-56B7-489A-ADF6-0E8A3A38D87A}.Debug|x86.Build.0 = Debug|x86
+		{68F397FA-56B7-489A-ADF6-0E8A3A38D87A}.Release|x86.ActiveCfg = Release|x86
+		{68F397FA-56B7-489A-ADF6-0E8A3A38D87A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BB79172-3215-4D08-A1BA-F6F5CCDA65D9}
+	EndGlobalSection
+EndGlobal
